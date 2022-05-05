@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+/* css header+nav */
+.header{
+
+    background: #373B44;  
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  
+    background: linear-gradient(to right, #4286f4, #373B44); 
+    padding: 16px;
+}
+.header__titulo{
+    display: inline;
+}
+li {
+    display: inline;
+}
+h1{font-weight: bold;
+}
+.header__nav{
+    background: #373B44;  
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44); 
+    background: linear-gradient(to right, #4286f4, #373B44);
+} 
+/* css index */
+.imagen{
+    padding: 10x;
+    margin: 30px;
+    border-radius: 50% 10% / 10% 40%; 
+    box-shadow: 0 0 6px 0 rgba(255, 255 , 255, 0.8);
+}
+.recienllegados{
+    padding: 10x;
+    margin: 30px;
+    border-radius: 25% 10%;
+}
+.recienllegados__titulo{
+    text-align: center;
+    font-size: 45px;
+}
+.recienllegados__imagen{
+    border-radius: 25% 10%;
+    background-color: #4286f4;
+    width: 350px;
+    height: 350px;
+    margin-top: 30px;
+}
+.recienllegados__titulo-libro{
+    text-align: center;
+    font-weight:bold;
+}
+.boton{
+    border-color: black;
+    padding: 5px;
+    font-weight: bold;
+}
+.masvendidos{
+    padding: 10x;
+    margin: 30px;
+    border-radius: 25% 10%;
+}
+.masvendidos__titulo{
+    text-align:center;
+    font-size: 45px;    
+}
+.masvendidos__imagen{
+    border-radius: 25% 10%;
+    background-color: #4286f4;
+    width: 350px;
+    height: 350px;
+    margin-top: 30px;
+}
+.masvendidos__titulo-libro{
+    text-align:center;
+    font-weight:bold;
+}
+/* css comprar */
+.comprar{
+    padding: 10x;
+    margin: 30px;
+    border-radius: 25% 10%;
+}
+.comprar__imagen{
+    border-radius: 25% 10%;
+    background-color: #4286f4;
+    width: 350px;
+    height: 350px;
+    margin-top: 30px;
+}
+.comprar__titulo-libro{
+    text-align: center;
+    font-weight:bold;
+}
+
+
+/* css contactos */
+
+.contactos{
+    text-align:center;
+    font-size: 45px; 
+}
+.subtitulo{
+    text-align:center;
+    font-size: 35px; 
+
+}
+.subtitulo__text1{
+    text-align: justify;
+    width: 600px;
+    font-weight: bold;
+}
+.subtitulo__text2{
+    text-align: justify;
+    width: 600px;
+    font-style: italic;
+}
+/* css-visitanos */
+.main__text{
+    text-align:center;
+    font-size: 35px; 
+}
+.visitanos{
+    text-align:center;
+    font-size: 45px; 
+}
+.visitanos__titulo{
+    text-align:center;
+    font-size: 25px; 
+}
+.visitanos__text2{
+    font-weight: bold;
+    font-style: italic;
+}
+/* css footer */
+.footer{
+    background: #373B44;  
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  
+    background: linear-gradient(to right, #4286f4, #373B44); 
+    padding: 16px;
+    font-size: small;
+    padding: auto;
+    margin-top: 16px;
+}
+.footer__descripcion-direccion{
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
