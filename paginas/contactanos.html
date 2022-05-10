@@ -10,24 +10,37 @@
 </head>
 <body>
     <header class="header">
-        <a href="../index.html"><img src="../recursos/logo.png" alt="logo casa de libros de ficciones"></a>
-        <h1 class="header_titulo">Casa libros de ficciones</h1>
+        <!-- logo + titulo principal -->
+        <div class="header__image">
+
+            <a href="../index.html"><img src="../recursos/logo.png" alt="logo ficciones"></a>
+
+        </div>
+
+        
+        <h1 class="header__titulo">Casa libros de ficciones</h1>
+        
         <!-- empieza la navegacion -->
-        <nav>
-            <ul class="header__nav">
-                <li><a href="../index.html">Inicio</a></li>
+        <nav class="header__nav">
+            
+            <ul>
+
+                <li><a href="../index.html">Inicio</a>
                 <li><a href="./contactanos.html">Contacto</a></li>
                 <li><a href="./comprar.html">Comprar</a></li>
-                <li><a href="./visitanos.html">Visitanos</a></li>
+                <li><a href="./visitanos.html">visitanos</a></li>
                 <li><a href="./sobre-nosotros.html">Sobre Nosotros</a></li>
+            
             </ul> 
+
         </nav>
         <!-- termina la navegacion -->
     </header>
+
     <main class="main">
-        
-        <section>
-            <h1 class="contactos">Contactanos</h1>
+        <h1 class="contactos__titulo">Contactanos</h1>
+        <section class="contactos">
+
             <form class="formulario__contactos" method="POST">
                 <div>
                 <input type="text" placeholder="nombre"/>
