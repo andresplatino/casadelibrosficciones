@@ -1,76 +1,109 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link REL="shortcut icon" href="./recursos/favicon-16x16.png">
     <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet"  href="./css/estilos.css">
     <title>Ficciones Alsina</title>
 </head>
 <body>
     <header class="header">
         <!-- logo + titulo principal -->
-        <div class="animate__animated animate__backInDown">
 
-            <a href="./index.html"><img src="./recursos/logo.png" alt="logo ficciones"></a>
-
-        </div>
-
-        
-        <h1 class="header__titulo">Casa libros de ficciones</h1>
-        
-        <!-- empieza la navegacion -->
-        <nav class="header__nav">
-            
-            <ul>
-
-                <li><a href="./index.html">Inicio</a>
-                <li><a href="./paginas/contactanos.html">Contacto</a></li>
-                <li><a href="./paginas/comprar.html">Comprar</a></li>
-                <li><a href="./paginas/visitanos.html">visitanos</a></li>
-                <li><a href="./paginas/sobre-nosotros.html">Sobre Nosotros</a></li>
-            
-            </ul> 
-
-        </nav>
-        <!-- termina la navegacion -->
-    </header>
-    
-    <main class="main">                
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand animate__animated animate__backInDown" href="./index.html"><img src="./recursos/logo.png" alt="logo ficciones"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./paginas/comprar.html">Comprar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./paginas/contactanos.html">Contactanos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./paginas/sobre-nosotros.html">Sobre Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./paginas/visitanos.html">Visitanos</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <button class="btn btn-outline-success" type="submit">CARRITO</button>
+                            
+                    </div>
+                </div>
+            </nav>
+    <main class="main">
         <!-- empieza la seccion recien llegados -->
-
-        <h2 class="recienllegados__titulo">Recien llegados</h2>
-        <section class="recienllegados">
-            
-            <div class="recienllegados__imagen">
-                <img class="imagen" src="./recursos/proximamente-foto.png">
-                <p class="recienllegados__titulo-libro">libro 1</p>
-                <button class="boton">Comprar</button>
-            </div> 
-
-            <div class="recienllegados__imagen">
-                <img class="imagen" src="./recursos/proximamente-foto.png">
-                <p class="recienllegados__titulo-libro">libro 2</p>
-                <button class="boton">Comprar</button>
-            </div>
-
-            <div class="recienllegados__imagen">
-                <img class="imagen" src="./recursos/proximamente-foto.png">
-                <p class="recienllegados__titulo-libro">libro 3</p>
-                <button class="boton">Comprar</button>
-            </div>
-
-            <div class="recienllegados__imagen">
-                <img class="imagen" src="./recursos/proximamente-foto.png">
-                <p class="recienllegados__titulo-libro">libro 4</p>
-                <button class="boton">Comprar</button>
-            </div>
-        </section>
+        <h2 class="recienllegados__titulo">Recien llegados</h2>        
+        <!--         
+        <section class="conteiner ">
+            <article clsas="row">
+                <div class="col">
+                    <img class="imagen" src="./recursos/proximamente-foto.png">
+                    <p class="recienllegados__titulo-libro">libro 1</p>
+                    <button class="boton">Comprar</button>
+                </div> 
+                <div class="col">
+                    <img class="imagen" src="./recursos/proximamente-foto.png">
+                    <p class="recienllegados__titulo-libro">libro 2</p>
+                    <button class="boton">Comprar</button>
+                </div>
+                <div class="col">
+                    <img class="imagen" src="./recursos/proximamente-foto.png">
+                    <p class="col recienllegados__titulo-libro">libro 3</p>
+                    <button class="boton">Comprar</button>
+                </div>
+                <div class="col">
+                    <img class="imagen" src="./recursos/proximamente-foto.png">
+                    <p class="recienllegados__titulo-libro">libro 4</p>
+                    <button class="boton">Comprar</button>
+                </div>
+            </article>
+        </section> --> 
         <!-- termina la seccion recien llegados -->
-
-        <!-- empieza la seccion recien mas vendidos -->
+        <Section >
+            <div class="card" style="width: 18rem;">
+                <img src="./recursos/proximamente-foto.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">titulo libro</p>
+                    <a href="#" class="btn btn-primary">COMPRAR</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./recursos/proximamente-foto.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">titulo libro</p>
+                    <a href="#" class="btn btn-primary">COMPRAR</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./recursos/proximamente-foto.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">titulo libro</p>
+                    <a href="#" class="btn btn-primary">COMPRAR</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./recursos/proximamente-foto.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">titulo libro</p>
+                    <a href="#" class="btn btn-primary">COMPRAR</a>
+                </div>
+            </div>
+        </Section>
+                <!-- empieza la seccion recien mas vendidos -->
 
         <h2 class="masvendidos__titulo">Mas Vendidos</h2>
         
@@ -106,21 +139,21 @@
     <!-- empieza pie de pagina -->
     <footer class="footer">
         <section class="footer__direccion">
-            <h2 class="footer__titulo-direccion">Veni a casa de libros ficciones</h2>
+            <h3 class="footer__titulo-direccion">Veni a casa de libros ficciones</h3>
             <P class="footer__descripcion-direccion">Av Precidente peron 2383</P>
             <P class="footer__descripcion-direccion">Lanus oeste , valentin alsina</P>
             <P class="footer__descripcion-direccion">4128 6224</P>
         </section>
 
         <section>
-            <h2 class="footer__comprar">Compra online</h2>
+            <h3 class="footer__comprar">Compra online</h3>
             <a href="./paginas/comprar.html">Libros</a>
             <a href="./paginas/comprar.html">Infantiles</a>
             <a href="./paginas/comprar.html">Mangas y comic</a>
         </section>
         <section>
             <form method="POST">
-                <h2>Suscribite a nuestro newsletter</h2>
+                <h3>Suscribite a nuestro newsletter</h3>
                 <div class="newsletter">
                     <input class="newsletter__nombre" type="text" placeholder="nombre"/>
                 </div>
@@ -132,11 +165,12 @@
             </form>
         </section>
         <section class="redessociales">
-            <h2 class="redessociales_titulo">siguenos en:</h2>
+            <h3 class="redessociales_titulo">siguenos en:</h3>
         <a href="https://www.facebook.com/ficciones.alsina.3"><img src="./recursos/face-36x36.png" alt="logo facebook"></a>
         <a href="https://www.instagram.com/ficcionesalsina/"><img src="./recursos/Instagram-36x36.png" alt="logo instragram"></a>
         </section>
     </footer>
     <!-- termina pie de pagina -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
