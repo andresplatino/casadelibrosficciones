@@ -1,0 +1,12 @@
+@media (min-width:541px) and (max-width: 720px){
+}
+@media (min-width:320px) and (max-width: 540px){
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+}

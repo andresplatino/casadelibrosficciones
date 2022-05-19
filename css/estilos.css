@@ -1,41 +1,71 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Helvetica;
-}
-/* css header+nav */
+.navbar {
+  background: #373B44;
+  background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+  background: linear-gradient(to right, #4286f4, #373B44); }
 
-h1{
-    align-items: center;
-    font-weight: bold;  
-}
-h2{
-    color:rgb(0, 0, 0)
-    padding: 3rem;
-    text-align: center;
-    font-size: 45px;
-    font-weight: bold
-}
-h3{
-    text-align: center;
-    font-weight: bold
-}
-ul{
+ul {
+  display: flex;
+  font-size: x-large;
+  font-weight: bold; }
+
+li {
+  list-style: none;
+  margin: 1rem; }
+
+li a {
+  text-decoration: none;
+  font-size: 110%; }
+
+.footer {
+  display: flex;
+  background: #373B44;
+  background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+  background: linear-gradient(to right, #4286f4, #373B44); }
+
+.footer__descripcion-direccion {
+  font-weight: bold;
+  font-style: italic; }
+
+.card__section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2rem; }
+
+.card {
+  margin-bottom: 1rem; }
+
+@media (min-width: 320px) and (max-width: 540px) {
+  .header {
     display: flex;
-    font-size: x-large;
-    font-weight: bold;
-}
-li{
-    list-style: none;
-    margin:1rem
-}
-li a{
-    text-decoration: none;
-    font-size: 110%;
-}
-.main{
-    background-color: #373B44;
-}
+    flex-direction: column; }
+  .footer {
+    display: flex;
+    flex-direction: column; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica; }
+
+/* css header+nav */
+h1 {
+  align-items: center;
+  font-weight: bold; }
+
+h2 {
+  color: black;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold; }
+
+h3 {
+  text-align: center;
+  font-weight: bold; }
+
+.main {
+  background-color: #373B44; }
+
 /* css index */
 /* .imagen{
     padding: 1rem;
@@ -46,7 +76,6 @@ li a{
     padding: 1rem;
     border-radius: 5%;
 } */
-
 /* .recienllegados__imagen{
     display:flex;
     flex-direction: column;
@@ -62,7 +91,8 @@ li a{
     border-color: black;
     padding: 1rem;
     font-weight: bold;
-} *//* 
+} */
+/* 
 .masvendidos{
     padding: 1rem;
     border-radius: 5%;
@@ -79,7 +109,6 @@ li a{
     font-weight:bold;
 }
 /* APLICANDO FLEX */
-
 /* .recienllegados{
     display: flex;
     justify-content: space-between;
@@ -102,17 +131,9 @@ li a{
 .visitanos{
     display: flex;
     justify-content: space-between;
-} */ */
-.footer{
-    display: flex;
-    justify-content: space-between;
-}
-
+} */
 /* css comprar */
-.comprar{
-
-}
-.comprar__imagen{
+/* .comprar__imagen{
     display:flex;
     flex-direction: column; 
     border-radius: 5%;
@@ -122,93 +143,46 @@ li a{
 .comprar__titulo-libro{
     text-align: center;
     font-weight:bold;
-}
-
-
+} */
 /* css contactos */
+.contactos {
+  text-align: center;
+  font-size: 45px; }
 
-.contactos{
-    text-align:center;
-    font-size: 45px; 
-}
-.contactos__titulo{
-    padding: 3rem;
-    text-align:center;
-    font-size: 45px; 
-}
-.subtitulo{
-    text-align:center;
-    font-size: 35px; 
+.contactos__titulo {
+  padding: 3rem;
+  text-align: center;
+  font-size: 45px; }
 
-}
-.subtitulo__text1{
-    text-align: justify;
-    width: 600px;
-    font-weight: bold;
-}
-.subtitulo__text2{
-    text-align: justify;
-    width: 600px;
-    font-style: italic;
-}
+.subtitulo {
+  text-align: center;
+  font-size: 35px; }
+
+.subtitulo__text1 {
+  text-align: justify;
+  width: 600px;
+  font-weight: bold; }
+
+.subtitulo__text2 {
+  text-align: justify;
+  width: 600px;
+  font-style: italic; }
+
 /* css-visitanos */
-.main__text{
-    text-align:center;
-    font-size: 35px; 
-}
-.visitanos{
-    text-align:center;
-    font-size: 45px; 
-}
-.visitanos__titulo{
-    text-align:center;
-    font-size: 25px; 
-}
-.visitanos__text2{
-    font-weight: bold;
-    font-style: italic;
-}
+.main__text {
+  text-align: center;
+  font-size: 35px; }
+
+.visitanos {
+  text-align: center;
+  font-size: 45px; }
+
+.visitanos__titulo {
+  text-align: center;
+  font-size: 25px; }
+
+.visitanos__text2 {
+  font-weight: bold;
+  font-style: italic; }
+
 /* css footer */
-.footer{
-    background: #373B44;  
-    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  
-    background: linear-gradient(to right, #4286f4, #373B44); 
-    padding: 1rem;
-    font-size: small;
-}
-.footer__descripcion-direccion{
-    font-weight: bold;
-    font-style: italic;
-}
-
-
-.masvendidos__imagen{
-    grid-area: imagen;
-}  
-
-@media (min-width:721px) and (max-width: 1500px){
-.header{
-}
-}
-@media (min-width:541px) and (max-width: 720px){
-
-
-}
-@media (min-width:320px) and (max-width: 540px){
-.header{
-    display: flex;
-    flex-direction: column;
-}
-.footer{
-    display: flex;
-    flex-direction: column;
-}
-}
-
-.navbar{
-
-    background: #373B44;  
-    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  
-    background: linear-gradient(to right, #4286f4, #373B44); 
-}
-

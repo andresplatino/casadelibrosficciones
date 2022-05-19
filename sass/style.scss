@@ -1,0 +1,162 @@
+@import 'variables';
+@import 'navegacion';
+@import 'header';
+@import 'footer';
+@import 'tarjeta';
+@import 'media';
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+/* css header+nav */
+
+h1{
+    align-items: center;
+    font-weight: bold;  
+}
+h2{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold
+}
+h3{
+    text-align: center;
+    font-weight: bold
+}
+.main{
+    background-color: $color-secundario;
+}
+
+
+/* css index */
+/* .imagen{
+    padding: 1rem;
+    border-radius: 7%;
+    box-shadow: 0 0 6px 0 rgba(255, 255 , 255, 0.8);
+} */
+/* .recienllegados{
+    padding: 1rem;
+    border-radius: 5%;
+} */
+
+/* .recienllegados__imagen{
+    display:flex;
+    flex-direction: column;
+    border-radius:5%;
+    background-color: #4286f4;
+    margin-top: 2rem;
+}
+.recienllegados__titulo-libro{
+    text-align: center;
+    font-weight:bold;
+}
+.boton{
+    border-color: black;
+    padding: 1rem;
+    font-weight: bold;
+} *//* 
+.masvendidos{
+    padding: 1rem;
+    border-radius: 5%;
+}
+.masvendidos__imagen{
+    display:flex;
+    flex-direction: column; 
+    border-radius: 5%;
+    background-color: #4286f4;
+    margin-top: 2rem;
+}
+.masvendidos__titulo-libro{
+    text-align:center;
+    font-weight:bold;
+}
+/* APLICANDO FLEX */
+
+/* .recienllegados{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.masvendidos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.comprar{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contactos{
+    display: flex;
+    justify-content: space-between;
+}
+.visitanos{
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* css comprar */
+/* .comprar__imagen{
+    display:flex;
+    flex-direction: column; 
+    border-radius: 5%;
+    background-color: #4286f4;
+    margin-top: 2rem;
+}
+.comprar__titulo-libro{
+    text-align: center;
+    font-weight:bold;
+} */
+
+
+/* css contactos */
+
+.contactos{
+    text-align:center;
+    font-size: 45px; 
+}
+.contactos__titulo{
+    padding: 3rem;
+    text-align:center;
+    font-size: 45px; 
+}
+.subtitulo{
+    text-align:center;
+    font-size: 35px; 
+
+}
+.subtitulo__text1{
+    text-align: justify;
+    width: 600px;
+    font-weight: bold;
+}
+.subtitulo__text2{
+    text-align: justify;
+    width: 600px;
+    font-style: italic; 
+}
+/* css-visitanos */
+.main__text{
+    text-align:center;
+    font-size: 35px; 
+}
+.visitanos{
+    text-align:center;
+    font-size: 45px; 
+}
+.visitanos__titulo{
+    text-align:center;
+    font-size: 25px; 
+}
+.visitanos__text2{
+    font-weight: bold;
+    font-style: italic;
+}
+/* css footer */
+
+
+
+

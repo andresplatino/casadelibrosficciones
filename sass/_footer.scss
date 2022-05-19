@@ -1,0 +1,10 @@
+.footer{
+    display: flex;
+    background: #373B44;  
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  
+    background: linear-gradient(to right, #4286f4, #373B44); 
+}
+.footer__descripcion-direccion{ 
+    font-weight: bold;
+    font-style: italic;
+}
