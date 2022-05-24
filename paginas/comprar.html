@@ -140,7 +140,7 @@
 
     </main>
     <!-- empieza pie de pagina -->
-    <footer class="footer">
+    <footer class="footer" >
         <section class="footer__direccion">
             <h3 class="footer__titulo-direccion">Veni a casa de libros ficciones</h3>
             <P class="footer__descripcion-direccion">Av Precidente peron 2383</P>
@@ -148,31 +148,36 @@
             <P class="footer__descripcion-direccion">4128 6224</P>
         </section>
 
-        <section>
-            <h3 class="footer__comprar">Compra online</h3>
-            <a href="../comprar.html">Libros</a>
-            <a href="../comprar.html">Infantiles</a>
-            <a href="../comprar.htmll">Mangas y comic</a>
+        <section class="footer__comprar">
+            <h3 >Compra online</h3>
+            <a href="../paginas/comprar.html">Literatura General</a>
+            <a href="../paginas/comprar.html">Juveniles-Infantiles</a>
+            <a href="../paginas/comprar.html">Mangas y cómics</a>
         </section>
-        <section>
+        <div>
             <form method="POST">
                 <h3>Suscribite a nuestro newsletter</h3>
-                <div class="newsletter">
-                <input class="newsletter__nombre" type="text" placeholder="nombre"/>
-                </div>
-                <input class="newsletter__email"type="email" placeholder="email"/>
+                <section class="footer__newsletter">
                 <div>
-                <textarea class="newsletter__texto"></textarea>
+                    <input class="newsletter__nombre" type="text" placeholder="nombre"/>
+
                 </div>
-                <input class="newsletter__sucribite" type="submit" value="enviar"/>
+                    <input class="newsletter__email"type="email" placeholder="email"/>
+                <div>
+                    <textarea class="newsletter__texto"></textarea>
+                </div>
+                <div>
+                    <input class="newsletter__submit" type="submit" value="enviar"/>
+                </div>
+                </section>
             </form>
-        </section>
-        <section class="redessociales">
-            <h3 class="redessociales_titulo">siguenos en:</h3>
-        <a href="https://www.facebook.com/ficciones.alsina.3"><img src="../recursos/face-36x36.png" alt="logo facebook"></a>
-        <a href="https://www.instagram.com/ficcionesalsina/"><img src="../recursos/Instagram-36x36.png" alt="logo instragram"></a>
+        </div>
+        <section class="footer__redes">
+            <h3   h3 class="redessociales_titulo imagen-redes">siguenos en:</h3>
+            <a  href="https://www.facebook.com/ficciones.alsina.3"><img src="../recursos/face-36x36.png" alt="logo facebook"></a>
+            <a  href="https://www.instagram.com/ficcionesalsina/"><img src="../recursos/Instagram-36x36.png" alt="logo instragram"></a>
         </section>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
-</html>     
+</html>
