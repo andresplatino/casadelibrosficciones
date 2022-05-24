@@ -9,4 +9,14 @@
     display: flex;
     flex-direction: column;
 }
+.main{
+    display: grid;
+    grid-template-columns: 1fr;  
+    transform: scale(0.75);
+}
+.main__contactanos{
+
+    display: flex;
+    flex-direction: column;
+}
 }

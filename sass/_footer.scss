@@ -1,10 +1,85 @@
 .footer{
     display: flex;
-    background: #373B44;  
-    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  
-    background: linear-gradient(to right, #4286f4, #373B44); 
+    justify-content: space-between;
+    background-color: $color-secundario;
+    border: 1rem;
+    padding: 3rem;
+    box-shadow: 0 5px 10px 5px rgba($color: #000000, $alpha: 30%);
 }
-.footer__descripcion-direccion{ 
-    font-weight: bold;
-    font-style: italic;
+.footer__direcicion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
+.footer__newsletter{
+    margin-top: 3em;
+    display:grid;
+    gap: 2.5em
+}
+.footer__comprar{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+}
+.footer__redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter__submit{
+    background:none;
+    color:rgb(0, 0, 0);
+    font-size:1rem;
+    padding: .6em .3em;
+    outline: none;
+}
+.newsletter__submit__texto{
+    width:100%;
+    background:none;
+    color:rgb(0, 0, 0);
+    font-size:1rem;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+}
+input{
+    justify-content: center;
+}
+
+.newsletter__nombre{
+    width:100%;
+
+    color:rgb(0, 0, 0);
+    font-size:1rem;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+    border: 1px solid ;
+
+}
+.newsletter__email{
+    width:100%;
+    border: 1px solid ;
+    color:rgb(0, 0, 0);
+    font-size:1rem;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+    border: 1px solid;  
+}
+.newsletter__texto{
+    width:100%;
+    border: 1px solid ;
+    color:rgb(0, 0, 0);
+    font-size:1rem;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+    border: 1px solid;
+}
+
+

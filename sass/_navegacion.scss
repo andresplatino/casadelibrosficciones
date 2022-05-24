@@ -1,11 +1,5 @@
-.navbar{
 
-    background: #373B44;  
-    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  
-    background: linear-gradient(to right, #4286f4, #373B44); 
-}
-
-ul{
+.navbar-nav{
     display: flex;
     font-size: x-large;
     font-weight: bold;
@@ -16,5 +10,6 @@ li{
 }
 li a{
     text-decoration: none;
-    font-size: 110%;
+    font-size: 20rem;
+    color:$color-secundario;
 }   

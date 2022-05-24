@@ -1,9 +1,4 @@
-.navbar {
-  background: #373B44;
-  background: -webkit-linear-gradient(to right, #4286f4, #373B44);
-  background: linear-gradient(to right, #4286f4, #373B44); }
-
-ul {
+.navbar-nav {
   display: flex;
   font-size: x-large;
   font-weight: bold; }
@@ -14,17 +9,90 @@ li {
 
 li a {
   text-decoration: none;
-  font-size: 110%; }
+  font-size: 20rem;
+  color: #a5370b; }
+
+.header {
+  box-shadow: 0 5px 10px -5px black; }
 
 .footer {
   display: flex;
-  background: #373B44;
-  background: -webkit-linear-gradient(to right, #4286f4, #373B44);
-  background: linear-gradient(to right, #4286f4, #373B44); }
+  justify-content: space-between;
+  background-color: #a5370b;
+  border: 1rem;
+  padding: 3rem;
+  box-shadow: 0 5px 10px 5px black; }
 
-.footer__descripcion-direccion {
-  font-weight: bold;
-  font-style: italic; }
+.footer__direcicion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; }
+
+.footer__newsletter {
+  margin-top: 3em;
+  display: grid;
+  gap: 2.5em; }
+
+.footer__comprar {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  text-decoration: none;
+  align-items: center; }
+
+.footer__redes {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.newsletter__submit {
+  background: none;
+  color: black;
+  font-size: 1rem;
+  padding: .6em .3em;
+  outline: none; }
+
+.newsletter__submit__texto {
+  width: 100%;
+  background: none;
+  color: black;
+  font-size: 1rem;
+  padding: .6em .3em;
+  border: none;
+  outline: none; }
+
+input {
+  justify-content: center; }
+
+.newsletter__nombre {
+  width: 100%;
+  color: black;
+  font-size: 1rem;
+  padding: .6em .3em;
+  border: none;
+  outline: none;
+  border: 1px solid; }
+
+.newsletter__email {
+  width: 100%;
+  border: 1px solid;
+  color: black;
+  font-size: 1rem;
+  padding: .6em .3em;
+  border: none;
+  outline: none;
+  border: 1px solid; }
+
+.newsletter__texto {
+  width: 100%;
+  border: 1px solid;
+  color: black;
+  font-size: 1rem;
+  padding: .6em .3em;
+  border: none;
+  outline: none;
+  border: 1px solid; }
 
 .card__section {
   display: flex;
@@ -41,12 +109,19 @@ li a {
     flex-direction: column; }
   .footer {
     display: flex;
+    flex-direction: column; }
+  .main {
+    display: grid;
+    grid-template-columns: 1fr;
+    transform: scale(0.75); }
+  .main__contactanos {
+    display: flex;
     flex-direction: column; } }
 
 * {
   margin: 0;
   padding: 0;
-  font-family: Helvetica; }
+  font-family: helvetica; }
 
 /* css header+nav */
 h1 {
@@ -56,95 +131,25 @@ h1 {
 h2 {
   color: black;
   text-align: center;
-  font-size: 45px;
+  font-size: 4rem;
   font-weight: bold; }
 
 h3 {
   text-align: center;
   font-weight: bold; }
 
-.main {
-  background-color: #373B44; }
+.visitanos {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
 
-/* css index */
-/* .imagen{
-    padding: 1rem;
-    border-radius: 7%;
-    box-shadow: 0 0 6px 0 rgba(255, 255 , 255, 0.8);
-} */
-/* .recienllegados{
-    padding: 1rem;
-    border-radius: 5%;
-} */
-/* .recienllegados__imagen{
-    display:flex;
-    flex-direction: column;
-    border-radius:5%;
-    background-color: #4286f4;
-    margin-top: 2rem;
-}
-.recienllegados__titulo-libro{
-    text-align: center;
-    font-weight:bold;
-}
-.boton{
-    border-color: black;
-    padding: 1rem;
-    font-weight: bold;
-} */
-/* 
-.masvendidos{
-    padding: 1rem;
-    border-radius: 5%;
-}
-.masvendidos__imagen{
-    display:flex;
-    flex-direction: column; 
-    border-radius: 5%;
-    background-color: #4286f4;
-    margin-top: 2rem;
-}
-.masvendidos__titulo-libro{
-    text-align:center;
-    font-weight:bold;
-}
-/* APLICANDO FLEX */
-/* .recienllegados{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.masvendidos{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.comprar{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.contactos{
-    display: flex;
-    justify-content: space-between;
-}
-.visitanos{
-    display: flex;
-    justify-content: space-between;
-} */
-/* css comprar */
-/* .comprar__imagen{
-    display:flex;
-    flex-direction: column; 
-    border-radius: 5%;
-    background-color: #4286f4;
-    margin-top: 2rem;
-}
-.comprar__titulo-libro{
-    text-align: center;
-    font-weight:bold;
-} */
 /* css contactos */
+.main__contactanos {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around; }
+
 .contactos {
   text-align: center;
   font-size: 45px; }
@@ -184,5 +189,3 @@ h3 {
 .visitanos__text2 {
   font-weight: bold;
   font-style: italic; }
-
-/* css footer */
