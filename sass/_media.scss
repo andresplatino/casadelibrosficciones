@@ -1,7 +1,7 @@
 @media (min-width:541px) and (max-width: 720px){
 }
 @media (min-width:320px) and (max-width: 540px){
-.header{
+    .header{
     display: flex;
     flex-direction: column;
 }
@@ -15,7 +15,6 @@
     transform: scale(0.75);
 }
 .main__contactanos{
-
     display: flex;
     flex-direction: column;
 }
