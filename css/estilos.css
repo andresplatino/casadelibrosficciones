@@ -54,7 +54,7 @@ li a {
   outline: none; }
 
 .newsletter__submit__texto {
-  width: 100%;
+  width: 60%;
   background: none;
   color: black;
   font-size: 1rem;
@@ -66,7 +66,7 @@ input {
   justify-content: center; }
 
 .newsletter__nombre {
-  width: 100%;
+  width: 60%;
   color: black;
   font-size: 1rem;
   padding: .6em .3em;
@@ -75,7 +75,7 @@ input {
   border: 1px solid; }
 
 .newsletter__email {
-  width: 100%;
+  width: 60%;
   border: 1px solid;
   color: black;
   font-size: 1rem;
@@ -94,6 +94,7 @@ input {
   outline: none;
   border: 1px solid; }
 
+/*  */
 .card__section {
   display: flex;
   justify-content: space-between;
@@ -110,13 +111,17 @@ input {
   .footer {
     display: flex;
     flex-direction: column; }
+  .map {
+    transform: scale(0.5); }
   .main {
-    display: grid;
-    grid-template-columns: 1fr;
-    transform: scale(0.75); }
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
   .main__contactanos {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column;
+    transform: scale(0.6);
+    justify-content: space-around; } }
 
 * {
   margin: 0;
@@ -128,62 +133,64 @@ h1 {
   margin-top: 1rem;
   align-items: center;
   font-weight: bold;
+  text-align: center; }
+
+h2 {
+  color: black;
+  margin-top: 1rem;
+  align-items: center;
+  font-weight: bold;
+  text-align: center; }
+
+h3 {
   text-align: center;
-  /* css contactos */
-  /* css-visitanos */ }
-  h1 h2 {
-    color: black;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: bold; }
-  h1 h3 {
-    text-align: center;
-    font-weight: bold; }
-  h1 .visitanos {
-    display: grid;
-    grid-template-columns: 1fr 1fr; }
-  h1 .main__contactanos {
-    margin-bottom: 2rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around; }
-  h1 .contactos {
-    text-align: center;
-    font-size: 45px; }
-  h1 .contactos__titulo {
-    padding: 3rem;
-    text-align: center;
-    font-size: 45px; }
-  h1 .subtitulo {
-    text-align: center;
-    font-size: 35px; }
-  h1 .subtitulo__text1 {
-    text-align: justify;
-    width: 600px;
-    font-weight: bold; }
-  h1 .subtitulo__text2 {
-    text-align: justify;
-    width: 600px;
-    font-style: italic; }
-  h1 .main__text {
-    text-align: center;
-    font-size: 35px; }
-  h1 .visitanos {
-    text-align: center;
-    font-size: 45px; }
-  h1 .visitanos__titulo {
-    text-align: center;
-    font-size: 25px; }
-  h1 .visitanos__text2 {
-    font-weight: bold;
-    font-style: italic; }
-  h1 h1 {
-    font-size: 20rem;
-    color: aquamarine; }
-  h1 h2 {
-    font-size: 1.5rem;
-    color: aquamarine; }
-  h1 h3 {
-    font-size: 0.25rem;
-    color: aquamarine; }
+  font-weight: bold; }
+
+.visitanos {
+  display: flex;
+  flex-direction: column; }
+
+.main__contactanos {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around; }
+
+.contactos {
+  text-align: center;
+  font-size: 45px; }
+
+.contactos__titulo {
+  padding: 3rem;
+  text-align: center;
+  font-size: 45px; }
+
+.subtitulo {
+  text-align: center;
+  font-size: 35px; }
+
+.subtitulo__text1 {
+  text-align: justify;
+  font-weight: bold; }
+
+.subtitulo__text2 {
+  text-align: justify;
+  font-style: italic; }
+
+/* css-visitanos */
+.main__text {
+  text-align: center;
+  font-size: 1rem; }
+
+.visitanos {
+  text-align: center;
+  font-size: 1rem; }
+
+.visitanos__titulo {
+  text-align: center;
+  font-size: 1rem; }
+
+.visitanos__text2 {
+  font-weight: bold;
+  font-style: italic; }
