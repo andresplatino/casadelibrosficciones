@@ -23,6 +23,10 @@ li a {
   padding: 3rem;
   box-shadow: 0 5px 10px 5px black; }
 
+.paginas {
+  text-decoration: none;
+  color: #000000; }
+
 .footer__direcicion {
   display: flex;
   flex-direction: column;
@@ -116,7 +120,15 @@ input {
   .main {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
+  .card__section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
   .main__contactanos {
     display: flex;
     flex-direction: column;
@@ -145,10 +157,6 @@ h2 {
 h3 {
   text-align: center;
   font-weight: bold; }
-
-.visitanos {
-  display: flex;
-  flex-direction: column; }
 
 .main__contactanos {
   margin-bottom: 2rem;
@@ -194,3 +202,13 @@ h3 {
 .visitanos__text2 {
   font-weight: bold;
   font-style: italic; }
+
+/* css sobre nosotros */
+.sobrenosotros {
+  display: grid;
+  justify-content: center;
+  padding-left: 2rem; }
+
+.sobrenosotros__3 {
+  display: flex;
+  justify-content: center; }

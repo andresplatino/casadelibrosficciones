@@ -2,25 +2,34 @@
 }
 @media (min-width:320px) and (max-width: 540px){
     .header{
-    display: flex;
-    flex-direction: column;
-}
+        display: flex;
+        flex-direction: column;
+    }
     .footer{
-    display: flex;
-    flex-direction: column;
-}
+        display: flex;
+        flex-direction: column;
+    }
     .map{
-    transform: scale(0.5);
-}
-.main{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-.main__contactanos{
-    display: flex;
-    flex-direction: column;
-    transform: scale(0.6);
-    justify-content: space-around;
-}
+        transform: scale(0.5);
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center; 
+        align-items: center;   
+    }
+    .card__section{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center; 
+        align-items: center;   
+    }
+    .main__contactanos{
+        display: flex;
+        flex-direction: column;
+        transform: scale(0.6);
+        justify-content: space-around;
+    }
 }

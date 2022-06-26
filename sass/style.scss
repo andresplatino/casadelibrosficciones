@@ -29,10 +29,6 @@ h3{
     font-weight: bold
 }
 
-.visitanos{
-display: flex;
-flex-direction: column;
-}
 
 .main__contactanos{
     margin-bottom: 2rem;
@@ -79,4 +75,14 @@ flex-direction: column;
 .visitanos__text2{
     font-weight: bold;
     font-style: italic;
+}
+/* css sobre nosotros */
+.sobrenosotros{
+    display:grid;
+    justify-content: center;
+    padding-left: 2rem;
+}
+.sobrenosotros__3{
+    display:flex;
+    justify-content: center;
 }
